@@ -102,16 +102,21 @@ export default class Quiz extends Component {
 
         let length = answer.length;
 
-        if(length === 0) {
+        if(length > 0 && length != correctAnswers[step].length) {
             add = 0;
-            aResult = -1;
+            aResult = -2;
         }
         else {
-            for (let i = 0; i < length; i++) {
-                if (!correctAnswers[step].includes(answer[i])) {
-                    add = 0;
-                    aResult = -1;
-                    break;
+            if (length === 0) {
+                add = 0;
+                aResult = -1;
+            } else {
+                for (let i = 0; i < length; i++) {
+                    if (!correctAnswers[step].includes(answer[i])) {
+                        add = 0;
+                        aResult = -1;
+                        break;
+                    }
                 }
             }
         }

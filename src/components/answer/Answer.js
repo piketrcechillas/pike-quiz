@@ -59,8 +59,11 @@ const Answer = (props) => {
                 <div>
                     {
                         props.answerState == 1 ?
-                        'Correct Answer!' : 
-                        props.answerState == -1 ? 'Incorrect Answer!' : ''
+                            'Correct Answer!' :
+                        props.answerState == -1 ?
+                            'Incorrect Answer!' :
+                            props.answerState == -2 ?
+                                'Missing Answer' : ''
                     }
                 </div>
             </>
