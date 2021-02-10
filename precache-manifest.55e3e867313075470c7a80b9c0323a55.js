@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c167dad7841f1945f9baab5b4bd6311b",
+    "revision": "f9b9a3e9a6c438563c2a14a394eb5887",
     "url": "/pike-quiz/index.html"
   },
   {
-    "revision": "0879cc52e861081ba97d",
+    "revision": "492e1ba7b117b55e6f3d",
     "url": "/pike-quiz/static/css/main.e9b42763.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pike-quiz/static/js/2.f2e489e9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0879cc52e861081ba97d",
-    "url": "/pike-quiz/static/js/main.dc7747e7.chunk.js"
+    "revision": "492e1ba7b117b55e6f3d",
+    "url": "/pike-quiz/static/js/main.0001191d.chunk.js"
   },
   {
     "revision": "9b99b1e91465e424a38f",

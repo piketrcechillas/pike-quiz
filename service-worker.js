@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pike-quiz/precache-manifest.b87f11809a0298efe7ae4336ff3dd195.js"
+  "/pike-quiz/precache-manifest.55e3e867313075470c7a80b9c0323a55.js"
 );
 
 self.addEventListener('message', (event) => {
